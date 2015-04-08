@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="BuildingNaturalBase" Abstract="True">
+    <category>Building</category>
+    <selectable>true</selectable>
+    <drawerType>MapMeshOnly</drawerType>
+    <filthLeaving>RockRubble</filthLeaving>
+  </ThingDef>
+
+
+  <ThingDef Name="RockBase" ParentName="BuildingNaturalBase" Abstract="True" >
+    <eType>Rock</eType>
+    <graphicPath>Things/Building/Linked/Rock_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <linkDrawerType>CornerFiller</linkDrawerType>
+    <altitudeLayer>BuildingTall</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <neverMultiSelect>true</neverMultiSelect>
+    <rotatable>false</rotatable>
+    <saveCompressible>true</saveCompressible>
+    <holdsRoof>true</holdsRoof>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <mineable>true</mineable>
+    <statBases>
+      <Flammability>0</Flammability>
+    </statBases>
+    <building>
+      <isNaturalRock>true</isNaturalRock>
+      <soundMined>CollapseRock</soundMined>
+      <canBuildNonEdificesUnder>false</canBuildNonEdificesUnder>
+    </building>
+    <linkFlags>
+      <li>Rock</li>
+      <li>MapEdge</li>
+    </linkFlags>
+  </ThingDef>
+
+
+  
+  
+  <!-- TLM ORES -->
+  <!-- Double boiler preser value -->
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableIron</defName>
+	<thingClass>TheLitleMods.IronMinning</thingClass>
+    <label>Iron ore vein</label>
+    <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <defaultColor>(110,118,118)</defaultColor>
+    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <statBases>
+      <MaxHealth>2360</MaxHealth>
+    </statBases>
+    <description>Simple iron ore vein.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Iron_Ore</mineableThing>
+      <mineableYield>35</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterBlotchSizeRange>
+        <min>25</min>
+        <max>45</max>
+      </mineableScatterBlotchSizeRange>
+    </building>
+  </ThingDef>
+ 
+</ThingDefs>

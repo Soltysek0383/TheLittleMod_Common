@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+	<RecipeDef>
+		<defName>SmeltCharcoal</defName>
+		<label>Smelt Charcoal</label>
+		<description>Smelt 2 Charcoal. Ingredients: 5x Wood Log</description>
+		<jobString>Creating.</jobString>
+		<workAmount>250</workAmount>
+		<workEffect>ButcherMechanoid</workEffect>
+		<workSpeedStat>MaterialCraftingSpeed</workSpeedStat>
+		<efficiencyStat>MaterialCraftingEfficiency</efficiencyStat>
+		<sustainerSoundDef>Recipe_CremateCorpse</sustainerSoundDef>
+		<ingredients>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>WoodLog</li>
+          			</thingDefs>
+        		</filter>
+        		<count>5</count>
+      		</li>
+		</ingredients>
+		<products>
+				<Charcoal>2</Charcoal>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>2</minLevel>
+			</li>
+		</skillRequirements>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>50</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>Stone_Smelt_OreIron</defName>
+		<label>Smelt Iron Ingot</label>
+		<description>Smelt 5 Iron Ingot. Ingredients: 5x Iron Ore , 5x Charcoal</description>
+		<jobString>Smelting.</jobString>
+		<workAmount>500</workAmount>
+		<workEffect>ButcherMechanoid</workEffect>
+		<workSpeedStat>MaterialCraftingSpeed</workSpeedStat>
+		<efficiencyStat>MaterialCraftingEfficiency</efficiencyStat>
+		<sustainerSoundDef>Recipe_CremateCorpse</sustainerSoundDef>
+		<ingredients>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>Iron_Ore</li>
+          			</thingDefs>
+        		</filter>
+        		<count>5</count>
+      		</li>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>Charcoal</li>
+          			</thingDefs>
+        		</filter>
+        		<count>5</count>
+      		</li>
+		</ingredients>
+		<products>
+				<Iron_Ingot>5</Iron_Ingot>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Iron_Ore</li>
+				<li>Charcoal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Iron_Ore</li>
+				<li>Charcoal</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>2</minLevel>
+			</li>
+		</skillRequirements>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>50</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+	
+</RecipeDefs>

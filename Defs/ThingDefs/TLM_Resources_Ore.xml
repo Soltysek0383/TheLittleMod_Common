@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+<!-- Wraper -->
+
+	<ThingDef Name="TLMResourceBase" Abstract="True">
+		<thingClass>ThingWithComponents</thingClass>
+		<label>Ore resource</label>
+		<category>Item</category>
+		<eType>Item</eType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useStandardHealth>true</useStandardHealth>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>50</stackLimit>
+		<comps>
+			<li><compClass>CompForbiddable</compClass></li>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>30</pathCost>
+	</ThingDef>
+
+<!-- TLM ORES -->
+    
+    <ThingDef ParentName="TLMResourceBase">
+   		<defName>Iron_Ore</defName>
+    	<label>Iron ore</label>
+    	<description>Chunk of iron ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Iron_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Copper_Ore</defName>
+    	<label>Copper ore</label>
+    	<description>Chunk of copper ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Copper_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Gold_Ore</defName>
+    	<label>Gold ore</label>
+    	<description>Chunk of gold ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Gold_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Lead_Ore</defName>
+    	<label>Lead ore</label>
+    	<description>Chunk of lead ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Lead_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Silver_Ore</defName>
+    	<label>Silver ore</label>
+    	<description>Chunk of silver ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Silver_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Tin_Ore</defName>
+    	<label>Tin ore</label>
+    	<description>Chunk of tin ore</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Tin_Ore</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Ores</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+	
+	
+</Resources>

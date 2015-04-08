@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+<!-- Wraper -->
+
+	<ThingDef Name="TLMResourceBase" Abstract="True">
+		<thingClass>ThingWithComponents</thingClass>
+		<label>Misc resource</label>
+		<category>Item</category>
+		<eType>Item</eType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useStandardHealth>true</useStandardHealth>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>100</stackLimit>
+		<comps>
+			<li><compClass>CompForbiddable</compClass></li>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>25</pathCost>
+	</ThingDef>
+
+<!-- TLM misc res wood related-->
+
+    
+    <ThingDef ParentName="TLMResourceBase">
+   		<defName>Charcoal</defName>
+    	<label>charcoal</label>
+    	<description>Charcoal</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Charcoal</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Wood_Drop</soundInteract>
+    	<soundDrop>Wood_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>0.5</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>ResourcesRaw</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+</Resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+<WorkGiverDef>
+    <defName>StoneSmelteryBill</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <singleBillGiverDef>StoneSmelter</singleBillGiverDef>
+    <verb>refine</verb>
+    <gerund>refining at</gerund>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
+  
+</WorkGivers>

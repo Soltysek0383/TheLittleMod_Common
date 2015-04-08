@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResearchProjectDefs>
+    
+    <!-- base technic line BALANCE REQ !!!! -->
+    <!-- Front res -->
+    
+    <ResearchProjectDef>
+		<defName>Chem</defName>
+		<label>chemistry discovery</label>
+		<description>Basic understanding of chemistry</description>
+		<totalCost>75</totalCost>
+		<prerequisites></prerequisites>
+	</ResearchProjectDef>
+	
+	<!-- multi lead reserches -->
+	
+    <ResearchProjectDef>
+		<defName>Basic_Chem</defName>
+		<label>basic chemical procesing</label>
+		<description>Basic chemical understend give you posibility to chemicly process some material
+		
+		UNLOCK :    Macerator
+		            Extractor
+		            Compresor</description>
+		<totalCost>750</totalCost>
+		<prerequisites><li>Chem</li></prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Oil_Ext</defName>
+		<label>Oil extraction</label>
+		<description>You discover old good crude oil extraction tech . 
+		
+		UNLOCK :    Oil Well
+		            Rafinery</description>
+		<totalCost>1500</totalCost>
+		<prerequisites><li>Basic_Chem</li></prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Metal_Alloy</defName>
+		<label>metal alloys</label>
+		<description>Knoweleg of metal smelting and chemical properts open you roads to metal alloying</description>
+		<totalCost>600</totalCost>
+		<prerequisites>
+		    <li>Basic_Chem</li>
+		    <li>Smelting</li>
+		</prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Adv_Chem</defName>
+		<label>adv chemical procesing</label>
+		<description>Intensive studing chemistry adn elecro-mechanic lead you to more adv way of material manipulation 
+		
+		UNLOCK :    Extruder
+		            Electrolizer
+		            Implosion Compresor</description>
+		<totalCost>2000</totalCost>
+		<prerequisites>
+		    <li>Basic_Chem</li>
+		    <li>El_Mech</li>
+		</prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Centrifuge</defName>
+		<label>centrifuge</label>
+		<description>Centrifuge Dream toy of chemicans  
+		
+		UNLOCK :    centrifuge
+		            </description>
+		<totalCost>3500</totalCost>
+		<prerequisites>
+		    <li>Adv_Chem</li>
+		    <li>Adv_Metal_Alloy</li>
+		</prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Destilation</defName>
+		<label>Destilation</label>
+		<description>You chemicans suspect that crude oil can be use more   
+		
+		UNLOCK :    Rafinery upgrade
+		            </description>
+		<totalCost>1500</totalCost>
+		<prerequisites>
+		    <li>Centrifuge</li>
+		    <li>Oil_Ext</li>
+		</prerequisites>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+		<defName>Adv_Metal_Alloy</defName>
+		<label>Adv. Metal Alloying</label>
+		<description>Lead to cosmic grade metal alloys</description>
+		<totalCost>3000</totalCost>
+		<prerequisites>
+		    <li>Adv_Smelting</li>
+		    <li>Metal_Alloy</li>
+		</prerequisites>
+    </ResearchProjectDef>
+	
+    
+<!-- sample 
+	<ResearchProjectDef>
+		<defName>GunTurretCooling</defName>
+		<label>gun turret cooling</label>
+		<description>Gun turrets fire four shots in a burst instead of three.</description>
+		<totalCost>1000</totalCost>
+		<prerequisites><li>TLM_null</li></prerequisites>
+    <researchMods>
+      <li>
+        <specialAction>ResearchModsSpecial.GunTurretCooling</specialAction>
+      </li>
+    </researchMods>
+	</ResearchProjectDef>
+-->
+
+  
+</ResearchProjectDefs>
