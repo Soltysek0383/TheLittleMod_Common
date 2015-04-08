@@ -53,8 +53,8 @@
     <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <defaultColor>(110,118,118)</defaultColor>
-    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <defaultColor>(114,92,83)</defaultColor>
+    <defaultColorTwo>(171,118,82)</defaultColorTwo>
     <statBases>
       <MaxHealth>2360</MaxHealth>
     </statBases>
@@ -78,8 +78,8 @@
     <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <defaultColor>(110,118,118)</defaultColor>
-    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <defaultColor>(114,92,83)</defaultColor>
+    <defaultColorTwo>(198,126,66)</defaultColorTwo>
     <statBases>
       <MaxHealth>1756</MaxHealth>
     </statBases>
@@ -104,7 +104,7 @@
     <graphicClass>Graphic_Single</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <defaultColor>(110,118,118)</defaultColor>
-    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <defaultColorTwo>(56,53,72)</defaultColorTwo>
     <statBases>
       <MaxHealth>250</MaxHealth>
     </statBases>
@@ -128,8 +128,8 @@
     <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
     <graphicClass>Graphic_Single</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <defaultColor>(110,118,118)</defaultColor>
-    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <defaultColor>(114,92,83)</defaultColor>
+    <defaultColorTwo>(174,186,186)</defaultColorTwo>
     <statBases>
       <MaxHealth>375</MaxHealth>
     </statBases>
