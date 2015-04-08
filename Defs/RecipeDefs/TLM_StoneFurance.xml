@@ -221,6 +221,7 @@
 	
 	<RecipeDef>
 		<defName>Stone_Smelt_OreTin</defName>
+		<label>Smelt Tin Ingot</label>
 		<description>Smelt 4 Tin Ingot. Ingredients: 5x Tin Ore , 1x Charcoal</description>
 		<jobString>Smelting.</jobString>
 		<workAmount>500</workAmount>
