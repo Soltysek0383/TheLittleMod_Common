@@ -62,7 +62,7 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>Iron_Ore</mineableThing>
-      <mineableYield>35</mineableYield>
+      <mineableYield>1</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterBlotchSizeRange>
         <min>25</min>
