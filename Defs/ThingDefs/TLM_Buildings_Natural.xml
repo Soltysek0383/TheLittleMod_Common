@@ -70,5 +70,80 @@
       </mineableScatterBlotchSizeRange>
     </building>
   </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCopper</defName>
+	<thingClass>TheLitleMods.CopperMinning</thingClass>
+    <label>Copper ore vein</label>
+    <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <defaultColor>(110,118,118)</defaultColor>
+    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <statBases>
+      <MaxHealth>1756</MaxHealth>
+    </statBases>
+    <description>Simple copper ore vein.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Copper_Ore</mineableThing>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.85</mineableScatterCommonality>
+      <mineableScatterBlotchSizeRange>
+        <min>15</min>
+        <max>38</max>
+      </mineableScatterBlotchSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableLead</defName>
+	<thingClass>TheLitleMods.LeadMinning</thingClass>
+    <label>Lead ore vein</label>
+    <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <defaultColor>(110,118,118)</defaultColor>
+    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <statBases>
+      <MaxHealth>250</MaxHealth>
+    </statBases>
+    <description>Simple lead ore vein.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Lead_Ore</mineableThing>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.5</mineableScatterCommonality>
+      <mineableScatterBlotchSizeRange>
+        <min>10</min>
+        <max>25</max>
+      </mineableScatterBlotchSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>MineableTin</defName>
+	<thingClass>TheLitleMods.TinMinning</thingClass>
+    <label>Tin ore vein</label>
+    <graphicPath>Things/Building/Linked/RockFlecked_Atlas</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <defaultColor>(110,118,118)</defaultColor>
+    <defaultColorTwo>(134,166,166)</defaultColorTwo>
+    <statBases>
+      <MaxHealth>375</MaxHealth>
+    </statBases>
+    <description>Simple tin ore vein.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>Tin_Ore</mineableThing>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.4</mineableScatterCommonality>
+      <mineableScatterBlotchSizeRange>
+        <min>10</min>
+        <max>25</max>
+      </mineableScatterBlotchSizeRange>
+    </building>
+  </ThingDef>
  
 </ThingDefs>
