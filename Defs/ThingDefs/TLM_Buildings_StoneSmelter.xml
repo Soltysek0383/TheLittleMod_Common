@@ -45,6 +45,9 @@
     	<recipes>
       		<li>SmeltCharcoal</li>
       		<li>Stone_Smelt_OreIron</li>
+			<li>Stone_Smelt_OreLead</li>
+      		<li>Stone_Smelt_OreCopper</li>
+			<li>Stone_Smelt_OreTin</li>
     	</recipes>
     	<inspectorTabs>
       		<li>ITab_Bills</li>
