@@ -52,4 +52,18 @@
       <li>Manipulation</li>
     </requiredActivities>
   </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>Electronic_T</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <singleBillGiverDef>Extractor</singleBillGiverDef>
+    <verb>Crafting</verb>
+    <gerund>Crafting at</gerund>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
+  
 </WorkGivers>
