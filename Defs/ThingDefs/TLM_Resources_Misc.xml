@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+<!-- Wraper -->
+
+	<ThingDef Name="TLMResourceBase" Abstract="True">
+		<thingClass>ThingWithComponents</thingClass>
+		<label>Dust resource</label>
+		<category>Item</category>
+		<eType>Item</eType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useStandardHealth>true</useStandardHealth>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>200</stackLimit>
+		<comps>
+			<li><compClass>CompForbiddable</compClass></li>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>30</pathCost>
+	</ThingDef>
+
+    <ThingDef ParentName="TLMResourceBase">
+   		<defName>Resin</defName>
+    	<label>Sticky resin</label>
+    	<description>Sticky resin extracted from wood when smoked turn in rubber</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Resin</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>0.5</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>ResourcesRaw</li>
+    	</thingCategories>
+ 	</ThingDef>
+ </Resources>

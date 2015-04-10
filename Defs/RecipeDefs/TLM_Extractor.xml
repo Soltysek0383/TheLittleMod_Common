@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+    
+	<RecipeDef>
+		<defName>Ext_Wood</defName>
+		<label>Extract Sticky Resin</label>
+		<description>Extract 10 sticky resin from 5 Wood Log</description>
+		<jobString>Extracting.</jobString>
+		<workAmount>250</workAmount>
+		<workEffect>ButcherMechanoid</workEffect>
+		<workSpeedStat>MaterialCraftingSpeed</workSpeedStat>
+		<efficiencyStat>MaterialCraftingEfficiency</efficiencyStat>
+		<sustainerSoundDef>Recipe_CremateCorpse</sustainerSoundDef>
+		<ingredients>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>WoodLog</li>
+          			</thingDefs>
+        		</filter>
+        		<count>5</count>
+      		</li>
+		</ingredients>
+		<products>
+				<Resin>10</Resin>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>2</minLevel>
+			</li>
+		</skillRequirements>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>50</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+
+</RecipeDefs>

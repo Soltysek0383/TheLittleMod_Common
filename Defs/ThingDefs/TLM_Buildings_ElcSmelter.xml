@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<ThingDef Name="BuildingBase" Abstract="True">
+    	<category>Building</category>
+    	<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+   	 	<selectable>true</selectable>
+    	<drawerType>MapMeshAndRealTime</drawerType>
+    	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    	<repairEffect>Repair</repairEffect>
+    	<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    	<filthLeaving>BuildingRubble</filthLeaving>
+  	</ThingDef>
+
+
+  <!-- ========================= Electric Smelter ==========================-->
+  	<ThingDef ParentName="BuildingBase">
+    	<DefName>ElcSmelter</DefName>
+    	<EType>BuildingComplex</EType>
+    	<label>Electric Smelter</label>
+    	<ThingClass>Building_WorkTable</ThingClass>
+    	<Description>Electric powered smeltery.</Description>
+    	<graphicPath>Thing/Buildings/StoneSmelter</graphicPath>
+    	<graphicClass>Graphic_Single</graphicClass>
+    	<researchPrerequisite>Basic_Smelting</researchPrerequisite>
+    	<CostList>
+      		<WoodLog>60</WoodLog>
+    	</CostList>
+    	<constructEffect>ConstructWood</constructEffect>
+    	<AltitudeLayer>Waist</AltitudeLayer>
+    	<fillPercent>0.5</fillPercent>
+    	<UseStandardHealth>True</UseStandardHealth>
+    	<statBases>
+      		<WorkToMake>5000</WorkToMake>
+      		<MaxHealth>250</MaxHealth>
+      		<Flammability>0.4</Flammability>
+    	</statBases>
+    	<Size>(3,1)</Size>
+    	<graphicOverdraw>False</graphicOverdraw>
+    	<DesignationCategory>Production</DesignationCategory>
+    	<Passability>PassThroughOnly</Passability>
+    	<pathCost>60</pathCost>
+    	<hasInteractionCell>True</hasInteractionCell>
+    	<interactionSquareOffset>(0,0,-1)</interactionSquareOffset>
+    	<itemSurface>True</itemSurface>
+    	<recipes>
+      		<li>SmeltCharcoal</li>
+      		<li>Elc_Smelt_OreIron</li>
+			<li>Elc_Smelt_OreLead</li>
+      		<li>Elc_Smelt_OreCopper</li>
+			<li>Elc_Smelt_OreTin</li>
+			<li>Elc_Smelt_DustIron</li>
+			<li>Elc_Smelt_DustLead</li>
+			<li>Elc_Smelt_DustCopper</li>
+			<li>Elc_Smelt_DustTin</li>
+			<li>SmeltSilicon</li>
+			<li>SmeltQuartz</li>
+    	</recipes>
+    	<inspectorTabs>
+      		<li>ITab_Bills</li>
+    	</inspectorTabs>
+    	<building>
+      		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    	</building>
+    	<designationHotKey></designationHotKey>
+  	</ThingDef>
+</ThingDefs>

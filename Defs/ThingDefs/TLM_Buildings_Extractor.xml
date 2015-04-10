@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<ThingDef Name="BuildingBase" Abstract="True">
+    	<category>Building</category>
+    	<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+   	 	<selectable>true</selectable>
+    	<drawerType>MapMeshAndRealTime</drawerType>
+    	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    	<repairEffect>Repair</repairEffect>
+    	<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    	<filthLeaving>BuildingRubble</filthLeaving>
+  	</ThingDef>
+
+
+  <!-- ========================= Stone Smelter ==========================-->
+  	<ThingDef ParentName="BuildingBase">
+    	<DefName>Extractor</DefName>
+    	<EType>BuildingComplex</EType>
+    	<label>Extractor</label>
+    	<ThingClass>Building_WorkTable</ThingClass>
+    	<Description>Simple Extractor</Description>
+    	<graphicPath>Thing/Buildings/Extractor</graphicPath>
+    	<graphicClass>Graphic_Single</graphicClass>
+    	<researchPrerequisite>Basic_Chem</researchPrerequisite>
+    	<CostList>
+      		<Steel>60</Steel>
+    	</CostList>
+    	<constructEffect>ConstructMetal</constructEffect>
+    	<AltitudeLayer>Waist</AltitudeLayer>
+    	<fillPercent>0.5</fillPercent>
+    	<UseStandardHealth>True</UseStandardHealth>
+    	<statBases>
+      		<WorkToMake>3500</WorkToMake>
+      		<MaxHealth>250</MaxHealth>
+      		<Flammability>0.4</Flammability>
+    	</statBases>
+    	<Size>(3,2)</Size>
+    	<graphicOverdraw>False</graphicOverdraw>
+    	<DesignationCategory>Production</DesignationCategory>
+    	<Passability>PassThroughOnly</Passability>
+    	<pathCost>60</pathCost>
+    	<hasInteractionCell>True</hasInteractionCell>
+    	<interactionSquareOffset>(0,0,-1)</interactionSquareOffset>
+    	<itemSurface>false</itemSurface>
+    	<recipes>
+      		<li>Ext_Wood</li>
+		</recipes>
+    	<inspectorTabs>
+      		<li>ITab_Bills</li>
+    	</inspectorTabs>
+    	<building>
+      		<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    	</building>
+    	<designationHotKey></designationHotKey>
+  	</ThingDef>
+</ThingDefs>

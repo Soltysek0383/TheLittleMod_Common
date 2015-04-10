@@ -18,7 +18,7 @@
 		<label>geothermal power</label>
 		<description>Allows you to build geothermal power plants on top of steam geysers, for uninterrupted power.</description>
 		<totalCost>900</totalCost>
-		<prerequisites><li>TLM_null</li></prerequisites>
+		<prerequisites></prerequisites>
 	</ResearchProjectDef>
 
   
@@ -28,7 +28,7 @@
 		<label>hydroponics</label>
 		<description>Allows you to build hydroponics tables to rapidly grow crops indoors regardless of the terrain or weather outside.</description>
 		<totalCost>700</totalCost>
-		<prerequisites><li>TLM_null</li></prerequisites>
+		<prerequisites></prerequisites>
 	</ResearchProjectDef>
 
 
@@ -37,7 +37,7 @@
     <label>brewing</label>
     <description>Allows you to build a brewery to transform hops into tasty, tasty beer.</description>
     <totalCost>700</totalCost>
-    <prerequisites><li>TLM_null</li></prerequisites>
+    <prerequisites></prerequisites>
   </ResearchProjectDef>
 
 
@@ -56,7 +56,7 @@
     <label>stonecutting</label>
     <description>Build stonecutting tables, which allow you to refine rock chunks into stone blocks that can be used for construction.</description>
     <totalCost>300</totalCost>
-    <prerequisites><li>TLM_null</li></prerequisites>
+    <prerequisites></prerequisites>
   </ResearchProjectDef>
 
   
@@ -85,7 +85,7 @@
 		<label>nutrient resynthesis</label>
 		<description>Nutrient paste dispensers consume 10% less food per meal produced.</description>
 		<totalCost>350</totalCost>
-		<prerequisites><li>TLM_null</li></prerequisites>
+		<prerequisites></prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>

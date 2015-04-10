@@ -145,6 +145,64 @@
     	</thingCategories>
  	</ThingDef>
  	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Sulfur_Dust</defName>
+    	<label>Sulfur dust</label>
+    	<description>dust of sulfur</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Sulfur_Dust</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Dusts</li>
+    	</thingCategories>
+ 	</ThingDef>
 	
+	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Soda_Dust</defName>
+    	<label>Soda dust</label>
+    	<description>dust of tin</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Soda_Dust</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Dusts</li>
+    	</thingCategories>
+ 	</ThingDef>
+ 	
+ 	<ThingDef ParentName="TLMResourceBase">
+   		<defName>Quartz_Dust</defName>
+    	<label>Quartz dust</label>
+    	<description>dust of quartz</description>
+    	<!-- alpha 7 way <graphicPathSingle>Thing/Items/Resource/Iron_Ore</graphicPathSingle> -->
+    	<graphicPath>Thing/Items/Resource/Quartz_Dust</graphicPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    	<soundInteract>Metal_Drop</soundInteract>
+    	<soundDrop>Metal_Drop</soundDrop>
+    	<statBases>
+            <MarketValue>2</MarketValue>
+            <!-- To Balance !!!
+            <MeleeWeapon_SharpDamageMultiplier>0.3</MeleeWeapon_SharpDamageMultiplier>
+            <MeleeWeapon_BluntDamageMultiplier>1.15</MeleeWeapon_BluntDamageMultiplier> -->
+        </statBases>
+    	<thingCategories>
+      		<li>Dusts</li>
+    	</thingCategories>
+ 	</ThingDef>
 	
 </Resources>

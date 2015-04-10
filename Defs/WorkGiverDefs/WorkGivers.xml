@@ -14,4 +14,42 @@
     </requiredActivities>
   </WorkGiverDef>
   
+  <WorkGiverDef>
+    <defName>ElcSmelteryBill</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>95</priorityInType>
+    <singleBillGiverDef>ElcSmelter</singleBillGiverDef>
+    <verb>refine</verb>
+    <gerund>refining at</gerund>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>MaceratorBill</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <singleBillGiverDef>Macerator</singleBillGiverDef>
+    <verb>Macerate</verb>
+    <gerund>Macerating at</gerund>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>ExtractorBill</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>90</priorityInType>
+    <singleBillGiverDef>Extractor</singleBillGiverDef>
+    <verb>Extracting</verb>
+    <gerund>Extracting at</gerund>
+    <requiredActivities>
+      <li>Manipulation</li>
+    </requiredActivities>
+  </WorkGiverDef>
 </WorkGivers>

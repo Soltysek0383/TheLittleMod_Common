@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+    <RecipeDef>
+		<defName>SmeltSilicon</defName>
+		<label>Smelt Silicon</label>
+		<description>Smelt 2 Silicon. Ingredients: 16x Sticky resin</description>
+		<jobString>Creating.</jobString>
+		<workAmount>250</workAmount>
+		<workEffect>ButcherMechanoid</workEffect>
+		<workSpeedStat>MaterialCraftingSpeed</workSpeedStat>
+		<efficiencyStat>MaterialCraftingEfficiency</efficiencyStat>
+		<sustainerSoundDef>Recipe_CremateCorpse</sustainerSoundDef>
+		<ingredients>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>Resin</li>
+          			</thingDefs>
+        		</filter>
+        		<count>16</count>
+      		</li>
+		</ingredients>
+		<products>
+				<Silicon>2</Silicon>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Resin</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Resin</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>2</minLevel>
+			</li>
+		</skillRequirements>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>50</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>SmeltQuartz</defName>
+		<label>Smelt Quartz</label>
+		<description>Smelt 4 Quartz. Ingredients: 20x Quartz Dust</description>
+		<jobString>Creating.</jobString>
+		<workAmount>250</workAmount>
+		<workEffect>ButcherMechanoid</workEffect>
+		<workSpeedStat>MaterialCraftingSpeed</workSpeedStat>
+		<efficiencyStat>MaterialCraftingEfficiency</efficiencyStat>
+		<sustainerSoundDef>Recipe_CremateCorpse</sustainerSoundDef>
+		<ingredients>
+			<li>
+        		<filter>
+          			<thingDefs>
+            			<li>Quartz_Dust</li>
+          			</thingDefs>
+        		</filter>
+        		<count>20</count>
+      		</li>
+		</ingredients>
+		<products>
+				<Quartz>4</Quartz>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Quartz_Dust</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Quartz_Dust</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>2</minLevel>
+			</li>
+		</skillRequirements>
+		<skillGains>
+			<li>
+				<skill>Crafting</skill>
+				<xp>50</xp>
+			</li>
+		</skillGains>
+	</RecipeDef>
+
+
+ </RecipeDefs>
